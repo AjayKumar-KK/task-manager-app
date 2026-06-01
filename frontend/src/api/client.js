@@ -1,5 +1,5 @@
 // Thin fetch wrapper that attaches the JWT and unwraps JSON / errors.
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_URL = 'https://task-manager-app-9s8z.onrender.com';
 const TOKEN_KEY = 'tm_token';
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY);
